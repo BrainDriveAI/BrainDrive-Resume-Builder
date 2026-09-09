@@ -1,0 +1,14 @@
+{
+  "name": "braindrive-resume-builder",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "BrainDrive Resume Builder package workspace.",
+  "scripts": {
+    "validate": "node scripts/validate-package-contract.mjs",
+    "test": "npm run validate"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

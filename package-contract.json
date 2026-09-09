@@ -1,0 +1,71 @@
+{
+  "contract_version": 1,
+  "package_id": "ai.braindrive.resume-builder",
+  "publisher_id": "ai.braindrive",
+  "package_kind": ["app"],
+  "release_channel": "local-dev",
+  "version": "0.1.0",
+  "artifact_name": "braindrive-resume-builder-0.1.0-local.dev.bdapp",
+  "manifest_semantics": {
+    "manifest_version": 2,
+    "package_profile": "braindrive-package-v2",
+    "required_sections": [
+      "package_id",
+      "publisher_id",
+      "package_version",
+      "package_kind",
+      "catalog",
+      "archive",
+      "files",
+      "components",
+      "sidecars",
+      "provided_operations",
+      "capability_dependencies",
+      "configuration",
+      "permissions",
+      "retention_policy",
+      "diagnostics",
+      "evidence"
+    ]
+  },
+  "planned_artifacts": [
+    {
+      "target": "docker_linux_x64",
+      "archive": "dist/braindrive-resume-builder-0.1.0-local.dev.bdapp"
+    },
+    {
+      "target": "desktop_windows_x64",
+      "archive": "dist/braindrive-resume-builder-0.1.0-local.dev.bdapp"
+    },
+    {
+      "target": "desktop_macos_universal",
+      "archive": "dist/braindrive-resume-builder-0.1.0-local.dev.bdapp"
+    }
+  ],
+  "relationship_projection": {
+    "launchable_app": true,
+    "provides_operations": [],
+    "requires_operations": []
+  },
+  "host_owned_authority": [
+    "package_verification",
+    "trust_evaluation",
+    "compatibility_filtering",
+    "revocation_checking",
+    "reviewed_registration_joins",
+    "install_update_decisions",
+    "lifecycle_state",
+    "runtime_supervision",
+    "owner_data_preservation"
+  ],
+  "excluded_from_catalog": [
+    "executable_command_lines",
+    "host_paths",
+    "private_endpoint_urls",
+    "ports",
+    "credentials",
+    "owner_trust_roots",
+    "install_decisions",
+    "runtime_authority"
+  ]
+}
