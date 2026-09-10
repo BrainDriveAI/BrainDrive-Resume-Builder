@@ -4,7 +4,11 @@
   "private": true,
   "type": "module",
   "description": "Resume Builder standalone package, app-owned workflow, inference program, resources, tests, and local-dev release artifacts.",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrainDriveAI/BrainDrive-Resume-Builder.git"
+  },
   "scripts": {
     "validate": "node scripts/validate-package-contract.mjs",
     "build": "tsc -p tsconfig.json",
