@@ -14,9 +14,9 @@ if (!existsSync(verifierScript)) {
   console.error(`FAIL ws5 verifier script missing: ${verifierScript}`);
   process.exit(1);
 }
-const runner = existsSync(compiledVerifierScript)
-  ? { command: process.execPath, args: [compiledVerifierScript] }
-  : { command: tsxBin, args: [verifierScript] };
+const runner = existsSync(tsxBin)
+  ? { command: tsxBin, args: [verifierScript] }
+  : { command: process.execPath, args: [compiledVerifierScript] };
 
 if (!existsSync(runner.args[0])) {
   console.error(`FAIL ws5 verifier runtime missing: ${runner.args[0]}`);
