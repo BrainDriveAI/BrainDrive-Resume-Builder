@@ -33,8 +33,8 @@ assert(contract.package_id === "ai.braindrive.resume-builder", "unexpected packa
 assert(contract.publisher_id === "ai.braindrive", "unexpected publisher_id");
 assert(contract.package_kind.length === 1 && contract.package_kind[0] === "app", "unexpected package_kind");
 assert(contract.release_channel === "local-dev", "unexpected release_channel");
-assert(contract.version === "4.2.21", "unexpected version");
-assert(contract.artifact_name === "braindrive-resume-builder-4.2.21-local.dev.bdapp", "unexpected artifact_name");
+assert(contract.version === "4.3.1", "unexpected version");
+assert(contract.artifact_name === "braindrive-resume-builder-4.3.1-local.dev.bdapp", "unexpected artifact_name");
 assert(contract.manifest_semantics.manifest_version === 2, "manifest_version must be 2");
 assert(contract.manifest_semantics.package_profile === "braindrive-package-v2", "unexpected package profile");
 assert(contract.planned_artifacts.length === 3, "expected three target artifacts");
@@ -77,4 +77,4 @@ if (existsSync(metadataPath)) {
   }
 }
 
-console.log("PASS package contract: ai.braindrive.resume-builder@4.2.21");
+console.log("PASS package contract: ai.braindrive.resume-builder@4.3.1");

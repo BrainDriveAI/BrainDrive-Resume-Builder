@@ -1,6 +1,6 @@
 {
   "name": "@braindrive/resume-builder",
-  "version": "4.2.21",
+  "version": "4.3.1",
   "private": true,
   "type": "module",
   "description": "Resume Builder standalone package, app-owned workflow, inference program, resources, tests, and local-dev release artifacts.",

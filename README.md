@@ -19,8 +19,8 @@ owner data behavior.
 - Publisher: `ai.braindrive`
 - Package kind: `app`
 - Release channel: `local-dev`
-- Current version: `4.2.21`
-- Artifact name: `braindrive-resume-builder-4.2.21-local.dev.bdapp`
+- Current version: `4.3.1`
+- Artifact name: `braindrive-resume-builder-4.3.1-local.dev.bdapp`
 - npm package: `@braindrive/resume-builder`
 
 The package uses ws5 manifest-version 2 semantics. The package manifest owns app

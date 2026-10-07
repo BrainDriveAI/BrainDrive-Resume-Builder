@@ -6,7 +6,7 @@ import path from "node:path";
 const PACKAGE_ID = "ai.braindrive.resume-builder";
 const PUBLISHER_ID = "ai.braindrive";
 const ROUTE_KEY = "resume-builder";
-const VERSION = "4.2.21";
+const VERSION = "4.3.1";
 const HOST_MIN_VERSION = "26.7.23";
 const RELEASE_CHANNEL = "local-dev";
 const ARTIFACT_NAME = `braindrive-resume-builder-${VERSION}-local.dev.bdapp`;

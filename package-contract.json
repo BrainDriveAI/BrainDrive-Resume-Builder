@@ -4,8 +4,8 @@
   "publisher_id": "ai.braindrive",
   "package_kind": ["app"],
   "release_channel": "local-dev",
-  "version": "4.2.21",
-  "artifact_name": "braindrive-resume-builder-4.2.21-local.dev.bdapp",
+  "version": "4.3.1",
+  "artifact_name": "braindrive-resume-builder-4.3.1-local.dev.bdapp",
   "manifest_semantics": {
     "manifest_version": 2,
     "package_profile": "braindrive-package-v2",
@@ -28,15 +28,15 @@
   "planned_artifacts": [
     {
       "target": "docker_linux_x64",
-      "archive": "dist/local-dev/release/4.2.21/braindrive-resume-builder-4.2.21-local.dev.bdapp"
+      "archive": "dist/local-dev/release/4.3.1/braindrive-resume-builder-4.3.1-local.dev.bdapp"
     },
     {
       "target": "desktop_windows_x64",
-      "archive": "dist/local-dev/release/4.2.21/braindrive-resume-builder-4.2.21-local.dev.bdapp"
+      "archive": "dist/local-dev/release/4.3.1/braindrive-resume-builder-4.3.1-local.dev.bdapp"
     },
     {
       "target": "desktop_macos_universal",
-      "archive": "dist/local-dev/release/4.2.21/braindrive-resume-builder-4.2.21-local.dev.bdapp"
+      "archive": "dist/local-dev/release/4.3.1/braindrive-resume-builder-4.3.1-local.dev.bdapp"
     }
   ],
   "relationship_projection": {

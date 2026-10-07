@@ -8,7 +8,7 @@ const ws5TypescriptRoot = path.join(ws5Root, "builds/typescript");
 const verifierScript = path.join(ws5TypescriptRoot, "scripts/verify-external-package.ts");
 const compiledVerifierScript = path.join(ws5TypescriptRoot, "dist/scripts/verify-external-package.js");
 const tsxBin = path.join(ws5TypescriptRoot, "node_modules/.bin/tsx");
-const releaseRoot = path.resolve("dist/local-dev/release/4.2.21");
+const releaseRoot = path.resolve("dist/local-dev/release/4.3.1");
 
 if (!existsSync(verifierScript)) {
   console.error(`FAIL ws5 verifier script missing: ${verifierScript}`);
@@ -28,13 +28,13 @@ const result = spawnSync(runner.command, [
   "--authority-root",
   releaseRoot,
   "--version",
-  "4.2.21",
+  "4.3.1",
   "--package-id",
   "ai.braindrive.resume-builder",
   "--publisher-id",
   "ai.braindrive",
   "--archive",
-  "braindrive-resume-builder-4.2.21-local.dev.bdapp",
+  "braindrive-resume-builder-4.3.1-local.dev.bdapp",
 ], {
   cwd: ws5TypescriptRoot,
   stdio: "inherit",
